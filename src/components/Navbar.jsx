@@ -34,7 +34,9 @@ function Navbar() {
               <NavLink className="" to="services">
                 Services
               </NavLink>
-              <NavLink className="">Portfolio</NavLink>
+              <NavLink className="" to="portfolios">
+                Portfolio
+              </NavLink>
               <NavLink className="" to="aboutme">
                 About me
               </NavLink>
