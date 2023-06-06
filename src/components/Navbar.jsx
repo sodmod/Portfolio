@@ -4,7 +4,7 @@ import styles from "./navbar.module.css";
 import { AiOutlineClose, AiOutlineMenu } from "react-icons/ai";
 
 function Navbar() {
-  const [first, setFirst] = useState(false);
+  const [first, setFirst] = useState(true);
 
   const onClick = () => {
     setFirst(!first);
