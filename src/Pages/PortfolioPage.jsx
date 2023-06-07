@@ -5,17 +5,25 @@ function PortfolioPage({ props, images }) {
   const { details } = useRouteLoaderData("portfolio");
 
   return (
-    <section className="w-full max-w-full min-h-full px-1 sm:px-4 py-4">
-      <div className="pt-36 w-full h-auto">
+    <section className="max-w-[100vw] min-h-full py-4 bg-stone-700">
+      <div className="pt-36 w-full h-auto bg-red-600">
         <h1 className="text-center text-3xl font-bold">
           Welcome To My Portfolio
         </h1>
         {details.map((prop) => (
-          <div key={prop.id} className="py-4">
-            <h1 className="text-xl sm:text-2xl font-bold">{prop.title}</h1>
-            <p className="text-base font-normal">{prop.message}</p>
-            <NavLink className="w-full h-60">
-              <img className="w-fulld" src={prop.images} alt="" />
+          <div
+            key={prop.id}
+            className="w-[100%] bg-slate-600 h-full flex flex-col py-4"
+          >
+            <div className="text-center w-[50%] m-auto">
+              <h1 className="text-xl sm:text-2xl font-bold">{prop.title}</h1>
+              <p className="text-lg font-normal p-4">{prop.message}</p>
+            </div>
+            <NavLink
+              className="sm:w-[70%] sm:max-w-[70%] h-auto bg-white mx-auto w-full max-w-full"
+              to=""
+            >
+              <img className="w-full m-auto" src={prop.images} alt="" />
             </NavLink>
           </div>
         ))}

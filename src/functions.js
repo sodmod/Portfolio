@@ -28,5 +28,5 @@ export const getProjects = () => {
 };
 
 export const getProjectsDetails = ({ params }) => {
-  const id = params.id;
+  // const id = params.id;
 };
