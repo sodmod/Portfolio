@@ -28,5 +28,15 @@ export const getProjects = () => {
 };
 
 export const getProjectsDetails = ({ params }) => {
-  // const id = params.id;
+  const id = params.projectname;
+  const { details } = getProjects();
+  for (let i = 0, l = details.length; i < l; i++) {
+    console.log(details[i]);
+    if (details[i].id === id) {
+      const x = details[i];
+      console.log(x);
+      return x;
+    }
+  }
+  return null;
 };

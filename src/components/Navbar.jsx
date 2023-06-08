@@ -16,7 +16,7 @@ function Navbar() {
     >
       <div className="w-[inherit] max-w-[inherit] h-[inherit]">
         <div className="w-full max-w-full h-[inherit] flex justify-center items-center">
-          <NavLink className="w-[30%] sm:w-2/4">
+          <NavLink className="w-[30%] sm:w-2/4" to="/">
             <h1 className=" w-full sm:w-[100%] text-xl sm:text-3xl font-bold text-center">
               Sodiq Badmus
             </h1>
@@ -40,7 +40,7 @@ function Navbar() {
               <NavLink className="" to="aboutme">
                 About me
               </NavLink>
-              <NavLink className="bg-[#216D8F] rounded-[5px] p-2">
+              <NavLink className="bg-[#216D8F] rounded-[5px] p-2" to="contact">
                 Contact
               </NavLink>
             </div>

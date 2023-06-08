@@ -11,9 +11,12 @@ body {
   height: 100vh;
   overflow-x: hidden;
   word-wrap: break-word;
+  font-family: Arial, Helvetica, sans-serif;
 }
 
 #root {
   min-height: 100vh;
   height: 100vh;
+  max-width: 100%;
+  width: 100%;
 }

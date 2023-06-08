@@ -11,7 +11,7 @@
   display: none;
 }
 
-.menu1 {
+.menu2 {
   font-size: 21px;
   display: flex;
   gap: 1rem;
@@ -33,14 +33,13 @@
   }
 }
 
-@media screen and (max-width: 780px) {
+@media screen and (max-width: 600px) {
   .navmenu {
     display: block;
     position: relative;
     width: 100%;
     z-index: 4;
   }
-
   .menu1 {
     display: flex;
     position: fixed;

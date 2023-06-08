@@ -1,30 +1,27 @@
 import React from "react";
-import { NavLink, useRouteLoaderData } from "react-router-dom";
+import { Link, useRouteLoaderData } from "react-router-dom";
 
-function PortfolioPage({ props, images }) {
+function PortfolioPage() {
   const { details } = useRouteLoaderData("portfolio");
-
+  console.log(details);
   return (
-    <section className="max-w-[100vw] min-h-full py-4 bg-stone-700">
-      <div className="pt-36 w-full h-auto bg-red-600">
+    <section className="max-w-[100vw] min-h-full py-4">
+      <div className="pt-36 w-full h-auto">
         <h1 className="text-center text-3xl font-bold">
           Welcome To My Portfolio
         </h1>
         {details.map((prop) => (
-          <div
-            key={prop.id}
-            className="w-[100%] bg-slate-600 h-full flex flex-col py-4"
-          >
+          <div key={prop.id} className="w-[100%] h-full flex flex-col py-4">
             <div className="text-center w-[50%] m-auto">
               <h1 className="text-xl sm:text-2xl font-bold">{prop.title}</h1>
               <p className="text-lg font-normal p-4">{prop.message}</p>
             </div>
-            <NavLink
-              className="sm:w-[70%] sm:max-w-[70%] h-auto bg-white mx-auto w-full max-w-full"
-              to=""
+            <Link
+              className="sm:w-[70%] sm:max-w-[70%] h-auto mx-auto w-full max-w-full"
+              to={`/portfolios/${prop.id}`}
             >
               <img className="w-full m-auto" src={prop.images} alt="" />
-            </NavLink>
+            </Link>
           </div>
         ))}
         <div className="text-center py-3">

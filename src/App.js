@@ -6,28 +6,9 @@ import AboutMePage from "./Pages/AboutMePage";
 import PortfolioPage from "./Pages/PortfolioPage";
 import pics1 from "./assests/Rectangle3.png";
 import { pics } from "./assests/assets";
-import { getProjects } from "./functions";
-
-const details = [
-  {
-    id: "1",
-    title: "Grammercetamol",
-    message: "kjfafal;jdkfsafjasfdsd",
-    images: pics,
-  },
-  {
-    id: "2",
-    title: "Task Interface",
-    message: "slfajf;lksa;jfkajjflkajf;ka",
-    images: pics,
-  },
-  {
-    id: "3",
-    title: "Food App",
-    message: "dfja;jflajeifjewoiajf",
-    images: pics1,
-  },
-];
+import { getProjects, getProjectsDetails } from "./functions";
+import ContactPage from "./Pages/ContactPage";
+import ProjectDetails from "./Pages/ProjectDetails";
 
 const router = createBrowserRouter([
   {
@@ -40,11 +21,23 @@ const router = createBrowserRouter([
           { index: true, element: <HomePage /> },
           { path: "services", element: <ServicePage /> },
           { path: "aboutme", element: <AboutMePage /> },
+          { path: "contact", element: <ContactPage /> },
           {
-            path: "portfolios",
             id: "portfolio",
-            element: <PortfolioPage props={details} images={pics1} />,
+            path: "portfolios",
             loader: getProjects,
+            children: [
+              {
+                index: true,
+                element: <PortfolioPage images={pics1} />,
+              },
+              {
+                path: ":projectname",
+                id: "details",
+                element: <ProjectDetails />,
+                loader: getProjectsDetails,
+              },
+            ],
           },
         ],
       },
