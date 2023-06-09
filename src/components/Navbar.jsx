@@ -22,12 +22,9 @@ function Navbar() {
           <div className="w-[70%]">
             <div className={styles.navmenu} onClick={onClick}>
               {first ? (
-                <>
-                  <i className="fa-solid fa-bars fa-fade fa-xl fa-beat text-white items-end"></i>
-                </>
+                <i className="fa-solid fa-bars fa-fade fa-xl fa-beat text-white items-end" />
               ) : (
-                <i className="fa-sharp fa-solid fa-xmark fa-2xl fa-bounce text-white items-end"></i>
-                // <i class="fa-sharp fa-solid fa-xmark fa-bounce fa-xl"></i>
+                <i className="fa-sharp fa-solid fa-xmark fa-2xl fa-bounce text-white items-end" />
               )}
             </div>
 
