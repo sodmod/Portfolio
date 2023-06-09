@@ -1,18 +1,16 @@
 import React, { useState } from "react";
 import { NavLink } from "react-router-dom";
 import styles from "./navbar.module.css";
-import { AiOutlineClose, AiOutlineMenu } from "react-icons/ai";
 
 function Navbar() {
   const [first, setFirst] = useState(true);
-
   const onClick = () => {
     setFirst(!first);
   };
 
   return (
     <div
-      className={`${styles.navbar} " absolute z-10 w-[100vw] max-w-full h-40 top-[-11px] " `}
+      className={`${styles.navbar} absolute z-10 w-[100vw] max-w-full h-40 top-[-11px]`}
     >
       <div className="w-[inherit] max-w-[inherit] h-[inherit]">
         <div className="w-full max-w-full h-[inherit] flex justify-center items-center">
@@ -24,9 +22,12 @@ function Navbar() {
           <div className="w-[70%]">
             <div className={styles.navmenu} onClick={onClick}>
               {first ? (
-                <AiOutlineMenu size={30} className="text-end w-full" />
+                <>
+                  <i className="fa-solid fa-bars fa-fade fa-xl fa-beat text-white items-end"></i>
+                </>
               ) : (
-                <AiOutlineClose size={30} className="text-end w-full" />
+                <i className="fa-sharp fa-solid fa-xmark fa-2xl fa-bounce text-white items-end"></i>
+                // <i class="fa-sharp fa-solid fa-xmark fa-bounce fa-xl"></i>
               )}
             </div>
 

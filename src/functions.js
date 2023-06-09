@@ -5,23 +5,44 @@ export const getProjects = () => {
     {
       id: "1",
       title: "Grammercetamol",
+      preview:
+        "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Itaque temporibus nulla expedita earum aspernatur porro assumenda, explicabo consectetur blanditiis quibusdam eius voluptatem harum? Aliquam aliquid, repudiandae velit suscipit omnis eveniet.",
       message:
         "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Itaque temporibus nulla expedita earum aspernatur porro assumenda, explicabo consectetur blanditiis quibusdam eius voluptatem harum? Aliquam aliquid, repudiandae velit suscipit omnis eveniet.",
       images: pics,
+      url: "",
+      github_repo: "",
+      technologies: [
+        { language: "Javascript", framework: "React" },
+        { language: "Java", framework: "SpringBoot" },
+        { language: "Databasee", framework: "Postgres" },
+      ],
     },
     {
       id: "2",
-      title: "Task Interface",
+      title: "Food Application",
+      preview:
+        "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Itaque temporibus nulla expedita earum aspernatur porro assumenda, explicabo consectetur blanditiis quibusdam eius voluptatem harum? Aliquam aliquid, repudiandae velit suscipit omnis eveniet.",
+
       message:
         "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Itaque temporibus nulla expedita earum aspernatur porro assumenda, explicabo consectetur blanditiis quibusdam eius voluptatem harum? Aliquam aliquid, repudiandae velit suscipit omnis eveniet.",
       images: pics,
+      url: "",
+      github_repo: "",
+      technologies: [{ language: "Javascript", framework: "React" }],
     },
     {
       id: "3",
-      title: "Food App",
+      title: "ToDo Task",
+      preview:
+        "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Itaque temporibus nulla expedita earum aspernatur porro assumenda, explicabo consectetur blanditiis quibusdam eius voluptatem harum? Aliquam aliquid, repudiandae velit suscipit omnis eveniet.",
+
       message:
         "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Itaque temporibus nulla expedita earum aspernatur porro assumenda, explicabo consectetur blanditiis quibusdam eius voluptatem harum? Aliquam aliquid, repudiandae velit suscipit omnis eveniet.",
       images: pics,
+      url: "",
+      github_repo: "",
+      technologies: [{ language: "Javascript", framework: "React" }],
     },
   ];
   return { details };

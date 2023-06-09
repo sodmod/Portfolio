@@ -12,11 +12,47 @@ body {
   overflow-x: hidden;
   word-wrap: break-word;
   font-family: Arial, Helvetica, sans-serif;
+  color: whitesmoke;
+  /* background-image: linear-gradient(
+    to right bottom,
+    #020202,
+    #1f1f21,
+    #36373a,
+    #4f5156,
+    #696c74,
+    #757981,
+    #81868f,
+    #8d939d,
+    #8d939d,
+    #8d939d,
+    #8d939d,
+    #8d939d
+  );
+  background-repeat: no-repeat;
+  background-size: cover; */
 }
 
 #root {
   min-height: 100vh;
-  height: 100vh;
+  /* height: 100vh; */
   max-width: 100%;
   width: 100%;
+  /* background-color: blue; */
+  background-image: linear-gradient(
+    to right bottom,
+    #020202,
+    #1f1f21,
+    #36373a,
+    #4f5156,
+    #696c74,
+    #757981,
+    #81868f,
+    #8d939d,
+    #8d939d,
+    #8d939d,
+    #8d939d,
+    #8d939d
+  );
+  background-repeat: no-repeat;
+  background-size: cover;
 }

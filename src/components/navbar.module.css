@@ -1,5 +1,6 @@
 .navbar {
   margin: auto;
+  color: white;
 }
 .navmenu {
   display: none;
@@ -37,7 +38,10 @@
   .navmenu {
     display: block;
     position: relative;
+    align-items: end;
     width: 100%;
+    text-align: end;
+    padding-right: 10px;
     z-index: 4;
   }
   .menu1 {

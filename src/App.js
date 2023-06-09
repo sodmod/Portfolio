@@ -5,7 +5,6 @@ import ServicePage from "./Pages/ServicePage";
 import AboutMePage from "./Pages/AboutMePage";
 import PortfolioPage from "./Pages/PortfolioPage";
 import pics1 from "./assests/Rectangle3.png";
-import { pics } from "./assests/assets";
 import { getProjects, getProjectsDetails } from "./functions";
 import ContactPage from "./Pages/ContactPage";
 import ProjectDetails from "./Pages/ProjectDetails";

@@ -3,9 +3,9 @@ import pics from "../assests/pics.png";
 
 function AboutMePage() {
   return (
-    <section className="relative w-full min-h-[100vh] h-[100vh] max-w-full">
+    <section className="relative w-full min-h-[100vh] max-w-full">
       <div className="flex flex-row  min-h-[100%] wax-w-full">
-        <div className="bg-[#216D8F] w-full font-[Arial] not-italic sm:w-3/6 min-h-[inherit] md:text-xl">
+        <div className="bg-[#788ba0c4] w-full font-[Arial] not-italic sm:w-3/6 min-h-[inherit] md:text-xl">
           <div className="w-full min-h-[inherit] overflow-hidden pt-32">
             <div className="w-[100%]  sm:w-[80%] lg:mx-auto text-white pt-16 pl-2">
               <h3 className="text-lg font-normal">Full-Stack Developer</h3>
@@ -37,7 +37,7 @@ function AboutMePage() {
         <div className="hidden sm:pt-32 sm:block w-3/6 relative mx-auto">
           <div className="relative sm:w-[100%] h-[100%] pt-5 pl-5 mx-auto">
             <img
-              className={`${"sm:w-[100%] h-[100%] pb-6"}`}
+              className={`${"sm:w-[100%] h-[70%] pb-6"}`}
               style={{ objectFit: "contain" }}
               src={pics}
               alt=""

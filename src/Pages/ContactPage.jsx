@@ -18,17 +18,17 @@ function ContactPage() {
           </div>
           <div className="w-full">
             <Form>
-              <div className="mb-2 w-full">
-                <Input />
+              <div className={`${styles.input} mb-2 w-full`}>
+                <Input placeholder="Name" />
               </div>
-              <div className="mb-2 w-full">
-                <Input />
+              <div className={`${styles.input} mb-2 w-full`}>
+                <Input placeholder="Email" />
               </div>
-              <div className="mb-2 w-full">
-                <Input />
+              <div className={`${styles.input} mb-2 w-full`}>
+                <Input placeholder="Subject" />
               </div>
-              <div>
-                <TextArea />
+              <div className={`${styles.input}`}>
+                <TextArea placeholder="Message" />
               </div>
             </Form>
           </div>
