@@ -1,4 +1,8 @@
-import pics from "./assests/Rectangle3.png";
+import foodApp from "./assests/expenses.jpg";
+import expenses from "./assests/expenses.jpg";
+import toDo from "./assests/todoList.jpg";
+import grammercetamol from "./assests/grammercetamol.jpg";
+import paystack_testing from "./assests/paystack_testing.jpg";
 
 export const getProjects = () => {
   const details = [
@@ -9,7 +13,7 @@ export const getProjects = () => {
         "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Itaque temporibus nulla expedita earum aspernatur porro assumenda, explicabo consectetur blanditiis quibusdam eius voluptatem harum? Aliquam aliquid, repudiandae velit suscipit omnis eveniet.",
       message:
         "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Itaque temporibus nulla expedita earum aspernatur porro assumenda, explicabo consectetur blanditiis quibusdam eius voluptatem harum? Aliquam aliquid, repudiandae velit suscipit omnis eveniet.",
-      images: pics,
+      images: grammercetamol,
       url: "",
       github_repo: "",
       technologies: [
@@ -26,7 +30,7 @@ export const getProjects = () => {
 
       message:
         "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Itaque temporibus nulla expedita earum aspernatur porro assumenda, explicabo consectetur blanditiis quibusdam eius voluptatem harum? Aliquam aliquid, repudiandae velit suscipit omnis eveniet.",
-      images: pics,
+      images: foodApp,
       url: "",
       github_repo: "",
       technologies: [{ language: "Javascript", framework: "React" }],
@@ -39,7 +43,36 @@ export const getProjects = () => {
 
       message:
         "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Itaque temporibus nulla expedita earum aspernatur porro assumenda, explicabo consectetur blanditiis quibusdam eius voluptatem harum? Aliquam aliquid, repudiandae velit suscipit omnis eveniet.",
-      images: pics,
+      images: toDo,
+      url: "",
+      github_repo: "",
+      technologies: [{ language: "Javascript", framework: "React" }],
+    },
+    {
+      id: "4",
+      title: "Paystack Testing",
+      preview:
+        "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Itaque temporibus nulla expedita earum aspernatur porro assumenda, explicabo consectetur blanditiis quibusdam eius voluptatem harum? Aliquam aliquid, repudiandae velit suscipit omnis eveniet.",
+
+      message:
+        "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Itaque temporibus nulla expedita earum aspernatur porro assumenda, explicabo consectetur blanditiis quibusdam eius voluptatem harum? Aliquam aliquid, repudiandae velit suscipit omnis eveniet.",
+      images: paystack_testing,
+      url: "",
+      github_repo: "",
+      technologies: [
+        { language: "Javascript", framework: "React" },
+        { language: "Java", framework: "SpringBoot" },
+      ],
+    },
+    {
+      id: "5",
+      title: "Paystack Testing",
+      preview:
+        "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Itaque temporibus nulla expedita earum aspernatur porro assumenda, explicabo consectetur blanditiis quibusdam eius voluptatem harum? Aliquam aliquid, repudiandae velit suscipit omnis eveniet.",
+
+      message:
+        "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Itaque temporibus nulla expedita earum aspernatur porro assumenda, explicabo consectetur blanditiis quibusdam eius voluptatem harum? Aliquam aliquid, repudiandae velit suscipit omnis eveniet.",
+      images: expenses,
       url: "",
       github_repo: "",
       technologies: [{ language: "Javascript", framework: "React" }],

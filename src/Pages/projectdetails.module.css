@@ -3,6 +3,7 @@
   max-width: 100%;
   min-height: 100%;
   padding: 0 2rem;
+  background-color: yellow;
 }
 
 @media screen and (max-width: 500px) {
