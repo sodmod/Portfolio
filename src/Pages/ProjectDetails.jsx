@@ -8,7 +8,7 @@ function ProjectDetails() {
 
   return (
     <section className={`${styles.projects}`}>
-      <div className="min-h-[100vh] mt-32">
+      <div className="min-h-[100vh] pt-32">
         {details && (
           <div className="w-full sm:w-10/12 m-auto">
             <div className="text-center pb-6 pt-3 text-[23px] leading-[23px] font-bold">
