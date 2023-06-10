@@ -20,7 +20,7 @@ function ProjectDetails() {
                 src={details.images}
                 alt=""
               />
-              <p className="text-[20px] md:px-4">{details.message}</p>
+              <p className="text-[20px] sm:px-4">{details.message}</p>
               <div>
                 <h1 className="text-center text-[20px] leading-[23px] font-bold">
                   Technical Skills

@@ -26,7 +26,11 @@ function PortfolioPage() {
                 className="sm:w-[70%] sm:max-w-[70%] h-auto mx-auto w-full max-w-full shadow-xl rounded-lg hover:scale-90 duration-300"
                 to={`/portfolios/${prop.id}`}
               >
-                <img className="sm:w-full m-auto" src={prop.images} alt="" />
+                <img
+                  className="p-3 sm:p-0 sm:w-full m-auto"
+                  src={prop.images}
+                  alt=""
+                />
               </Link>
             </div>
           ))}
