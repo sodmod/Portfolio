@@ -9,6 +9,10 @@ function Navbar() {
     setFirst(!first);
   };
 
+  const onClick1 = () => {
+    setFirst(true);
+  };
+
   return (
     <div
       className={`${styles.navbar} absolute z-10 w-[100vw] max-w-full h-40 top-[-11px]`}
@@ -30,16 +34,20 @@ function Navbar() {
             </div>
 
             <div className={first ? `${styles.menu2}` : `${styles.menu1}`}>
-              <NavLink className="" to="services" onClick={onClick}>
+              <NavLink className="" to="services" onClick={onClick1}>
                 Services
               </NavLink>
-              <NavLink className="" to="portfolios" onClick={onClick}>
+              <NavLink className="" to="portfolios" onClick={onClick1}>
                 Portfolio
               </NavLink>
-              <NavLink className="" to="aboutme" onClick={onClick}>
+              <NavLink className="" to="aboutme" onClick={onClick1}>
                 About me
               </NavLink>
-              <NavLink className="bg-[#216D8F] rounded-[5px] p-2" to="contact">
+              <NavLink
+                className="bg-[#216D8F] rounded-[5px] p-2"
+                onClick={onClick1}
+                to="contact"
+              >
                 Contact
               </NavLink>
             </div>

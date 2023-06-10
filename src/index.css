@@ -1,6 +1,14 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+@font-face {
+  font-family: book;
+  src: url("./fonts/BrouklynSignature-DemoUse.otf");
+}
+@font-face {
+  font-family: rose;
+  src: url("./fonts/arial-downloaded-font-collection/rosmatika-73779/RosmatikaRegular-BWA45.ttf");
+}
 
 body {
   padding: 0;
@@ -11,7 +19,7 @@ body {
   height: 100vh;
   overflow-x: hidden;
   word-wrap: break-word;
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: rose;
   color: whitesmoke;
   background-image: linear-gradient(
     to right bottom,
@@ -54,4 +62,5 @@ body {
   );
   background-repeat: no-repeat;
   background-size: cover;
+  overflow: hidden;
 }

@@ -14,7 +14,7 @@ function PortfolioPage() {
           {details.map((prop) => (
             <div
               key={prop.id}
-              className="w-[100%] min-h-full flex flex-col py-4"
+              className="sm:w-[100%] min-h-full flex flex-col py-8"
             >
               <div className="text-center sm:w-[50%] m-auto w-[90%]">
                 <h1 className="text-xl sm:text-2xl font-bold">{prop.title}</h1>
@@ -26,7 +26,7 @@ function PortfolioPage() {
                 className="sm:w-[70%] sm:max-w-[70%] h-auto mx-auto w-full max-w-full shadow-xl rounded-lg hover:scale-90 duration-300"
                 to={`/portfolios/${prop.id}`}
               >
-                <img className="w-full m-auto" src={prop.images} alt="" />
+                <img className="sm:w-full m-auto" src={prop.images} alt="" />
               </Link>
             </div>
           ))}
