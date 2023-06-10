@@ -19,7 +19,7 @@ function PortfolioPage() {
               <div className="text-center sm:w-[50%] m-auto w-[90%]">
                 <h1 className="text-xl sm:text-2xl font-bold">{prop.title}</h1>
                 <p className="sm:text-lg font-normal sm:p-4 text-base">
-                  {prop.message}
+                  {prop.preview}
                 </p>
               </div>
               <Link

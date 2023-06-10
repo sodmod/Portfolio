@@ -20,9 +20,11 @@ function Navbar() {
       <div className="w-[inherit] max-w-[inherit] h-[inherit]">
         <div className="w-full max-w-full h-[inherit] flex justify-center items-center">
           <NavLink className="w-[30%] sm:w-2/4" to="/">
-            <h1 className=" w-full sm:w-[100%] text-xl sm:text-3xl font-bold text-center">
-              Sodiq Badmus
-            </h1>
+            <div className="w-full sm:w-[100%]">
+              <h1 className="text-xl sm:text-3xl font-bold text-center sm:hover:scale-125 sm:p-3 sm:duration-300">
+                Sodiq Badmus
+              </h1>
+            </div>
           </NavLink>
           <div className="w-[70%]">
             <div className={styles.navmenu} onClick={onClick}>
@@ -34,17 +36,29 @@ function Navbar() {
             </div>
 
             <div className={first ? `${styles.menu2}` : `${styles.menu1}`}>
-              <NavLink className="" to="services" onClick={onClick1}>
+              <NavLink
+                className="sm:hover:scale-110 sm:hover:bg-slate-950 sm:p-3 sm:duration-300"
+                to="services"
+                onClick={onClick1}
+              >
                 Services
               </NavLink>
-              <NavLink className="" to="portfolios" onClick={onClick1}>
+              <NavLink
+                className="sm:hover:scale-110 sm:hover:bg-slate-950 sm:p-3 sm:duration-300"
+                to="portfolios"
+                onClick={onClick1}
+              >
                 Portfolio
               </NavLink>
-              <NavLink className="" to="aboutme" onClick={onClick1}>
+              <NavLink
+                className="sm:hover:scale-110 sm:hover:bg-slate-950 sm:p-3 sm:duration-300"
+                to="aboutme"
+                onClick={onClick1}
+              >
                 About me
               </NavLink>
               <NavLink
-                className="bg-[#216D8F] rounded-[5px] p-2"
+                className="bg-[#216D8F] rounded-[5px] p-2 sm:hover:scale-110 sm:hover:bg-slate-950 sm:p-3 sm:duration-300"
                 onClick={onClick1}
                 to="contact"
               >

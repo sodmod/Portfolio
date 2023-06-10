@@ -14,8 +14,11 @@ export const getProjects = () => {
       message:
         "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Explicabo odio recusandae eaque? Sunt delectus voluptatibus dolores aut, assumenda provident molestias quidem nemo doloremque molestiae quos sequi harum accusamus veritatis deserunt  Blanditiis, dolore? Aliquid minus assumenda animi dignissimos id in ea dicta voluptate amet? Corporis nisi assumenda dicta explicabo ipsam obcaecati distinctio dignissimos sed nam? Totam iure quisquam beatae modi veritatis!  Accusantium, nulla. Voluptas natus quo facilis aspernatur odio sunt soluta saepe dolorum provident. Consequuntur, quisquam cum? Consequatur, iste obcaecati? Nam, eligendi autem provident non dolorem maxime est vero minus ea.Quam nihil sint hic ipsa, facilis eveniet quasi dolorem ducimus aspernatur, aut laborum quo saepe. Dolores unde fugiat vero blanditiis? Obcaecati odio maiores iusto dolorum inventore! Commodi earum aliquam nesciunt.Vero, totam odio pariatur voluptatibus fugiat quidem velit cupiditate doloremque architecto tempora obcaecati officia recusandae in dignissimos laborum dolor magnam asperiores ipsum! Mollitia necessitatibus, ad corporis consequatur cumque dolorum neque! Repudiandae reprehenderit cum beatae nobis! Dicta officia libero unde voluptatum qui, autem quod, nisi repellat tempore quasi, reiciendis ipsam! Perspiciatis vitae inventore, aspernatur consectetur sequi fugiat nobis ab et suscipit?",
       images: grammercetamol,
-      url: "",
-      github_repo: "",
+      url: "https://grammercetamol.netlify.app/",
+      github_repo: {
+        frontend: "https://github.com/sodmod/grammercetamol-interface",
+        backend: "https://github.com/sodmod/grammercetamol",
+      },
       technologies: [
         { language: "Javascript", framework: "React" },
         { language: "Java", framework: "SpringBoot" },
@@ -31,8 +34,11 @@ export const getProjects = () => {
       message:
         "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Explicabo odio recusandae eaque? Sunt delectus voluptatibus dolores aut, assumenda provident molestias quidem nemo doloremque molestiae quos sequi harum accusamus veritatis deserunt  Blanditiis, dolore? Aliquid minus assumenda animi dignissimos id in ea dicta voluptate amet? Corporis nisi assumenda dicta explicabo ipsam obcaecati distinctio dignissimos sed nam? Totam iure quisquam beatae modi veritatis!  Accusantium, nulla. Voluptas natus quo facilis aspernatur odio sunt soluta saepe dolorum provident. Consequuntur, quisquam cum? Consequatur, iste obcaecati? Nam, eligendi autem provident non dolorem maxime est vero minus ea.Quam nihil sint hic ipsa, facilis eveniet quasi dolorem ducimus aspernatur, aut laborum quo saepe. Dolores unde fugiat vero blanditiis? Obcaecati odio maiores iusto dolorum inventore! Commodi earum aliquam nesciunt.Vero, totam odio pariatur voluptatibus fugiat quidem velit cupiditate doloremque architecto tempora obcaecati officia recusandae in dignissimos laborum dolor magnam asperiores ipsum! Mollitia necessitatibus, ad corporis consequatur cumque dolorum neque! Repudiandae reprehenderit cum beatae nobis! Dicta officia libero unde voluptatum qui, autem quod, nisi repellat tempore quasi, reiciendis ipsam! Perspiciatis vitae inventore, aspernatur consectetur sequi fugiat nobis ab et suscipit?",
       images: foodApp,
-      url: "",
-      github_repo: "",
+      url: "https://badmus-food-order-app.netlify.app/",
+      github_repo: {
+        frontend: "https://github.com/sodmod/food-app",
+        backend: "",
+      },
       technologies: [{ language: "Javascript", framework: "React" }],
     },
     {
@@ -45,8 +51,11 @@ export const getProjects = () => {
         "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Explicabo odio recusandae eaque? Sunt delectus voluptatibus dolores aut, assumenda provident molestias quidem nemo doloremque molestiae quos sequi harum accusamus veritatis deserunt  Blanditiis, dolore? Aliquid minus assumenda animi dignissimos id in ea dicta voluptate amet? Corporis nisi assumenda dicta explicabo ipsam obcaecati distinctio dignissimos sed nam? Totam iure quisquam beatae modi veritatis!  Accusantium, nulla. Voluptas natus quo facilis aspernatur odio sunt soluta saepe dolorum provident. Consequuntur, quisquam cum? Consequatur, iste obcaecati? Nam, eligendi autem provident non dolorem maxime est vero minus ea.Quam nihil sint hic ipsa, facilis eveniet quasi dolorem ducimus aspernatur, aut laborum quo saepe. Dolores unde fugiat vero blanditiis? Obcaecati odio maiores iusto dolorum inventore! Commodi earum aliquam nesciunt.Vero, totam odio pariatur voluptatibus fugiat quidem velit cupiditate doloremque architecto tempora obcaecati officia recusandae in dignissimos laborum dolor magnam asperiores ipsum! Mollitia necessitatibus, ad corporis consequatur cumque dolorum neque! Repudiandae reprehenderit cum beatae nobis! Dicta officia libero unde voluptatum qui, autem quod, nisi repellat tempore quasi, reiciendis ipsam! Perspiciatis vitae inventore, aspernatur consectetur sequi fugiat nobis ab et suscipit?",
 
       images: toDo,
-      url: "",
-      github_repo: "",
+      url: "https://badmus-todo-list.netlify.app/",
+      github_repo: {
+        frontend: "https://github.com/sodmod/My-_React_ToDo_List",
+        backend: "",
+      },
       technologies: [{ language: "Javascript", framework: "React" }],
     },
     {
@@ -58,8 +67,11 @@ export const getProjects = () => {
       message:
         "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Explicabo odio recusandae eaque? Sunt delectus voluptatibus dolores aut, assumenda provident molestias quidem nemo doloremque molestiae quos sequi harum accusamus veritatis deserunt  Blanditiis, dolore? Aliquid minus assumenda animi dignissimos id in ea dicta voluptate amet? Corporis nisi assumenda dicta explicabo ipsam obcaecati distinctio dignissimos sed nam? Totam iure quisquam beatae modi veritatis!  Accusantium, nulla. Voluptas natus quo facilis aspernatur odio sunt soluta saepe dolorum provident. Consequuntur, quisquam cum? Consequatur, iste obcaecati? Nam, eligendi autem provident non dolorem maxime est vero minus ea.Quam nihil sint hic ipsa, facilis eveniet quasi dolorem ducimus aspernatur, aut laborum quo saepe. Dolores unde fugiat vero blanditiis? Obcaecati odio maiores iusto dolorum inventore! Commodi earum aliquam nesciunt.Vero, totam odio pariatur voluptatibus fugiat quidem velit cupiditate doloremque architecto tempora obcaecati officia recusandae in dignissimos laborum dolor magnam asperiores ipsum! Mollitia necessitatibus, ad corporis consequatur cumque dolorum neque! Repudiandae reprehenderit cum beatae nobis! Dicta officia libero unde voluptatum qui, autem quod, nisi repellat tempore quasi, reiciendis ipsam! Perspiciatis vitae inventore, aspernatur consectetur sequi fugiat nobis ab et suscipit?",
       images: paystack_testing,
-      url: "",
-      github_repo: "",
+      url: "https://badmus-paystack-testing.netlify.app/",
+      github_repo: {
+        frontend: "https://github.com/sodmod/paystack-interface",
+        backend: "https://github.com/sodmod/spring-paystack",
+      },
       technologies: [
         { language: "Javascript", framework: "React" },
         { language: "Java", framework: "SpringBoot" },
@@ -67,15 +79,18 @@ export const getProjects = () => {
     },
     {
       id: "5",
-      title: "Paystack Testing",
+      title: "Expenses",
       preview:
         "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Itaque temporibus nulla expedita earum aspernatur porro assumenda, explicabo consectetur blanditiis quibusdam eius voluptatem harum? Aliquam aliquid, repudiandae velit suscipit omnis eveniet.",
 
       message:
         "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Explicabo odio recusandae eaque? Sunt delectus voluptatibus dolores aut, assumenda provident molestias quidem nemo doloremque molestiae quos sequi harum accusamus veritatis deserunt  Blanditiis, dolore? Aliquid minus assumenda animi dignissimos id in ea dicta voluptate amet? Corporis nisi assumenda dicta explicabo ipsam obcaecati distinctio dignissimos sed nam? Totam iure quisquam beatae modi veritatis!  Accusantium, nulla. Voluptas natus quo facilis aspernatur odio sunt soluta saepe dolorum provident. Consequuntur, quisquam cum? Consequatur, iste obcaecati? Nam, eligendi autem provident non dolorem maxime est vero minus ea.Quam nihil sint hic ipsa, facilis eveniet quasi dolorem ducimus aspernatur, aut laborum quo saepe. Dolores unde fugiat vero blanditiis? Obcaecati odio maiores iusto dolorum inventore! Commodi earum aliquam nesciunt.Vero, totam odio pariatur voluptatibus fugiat quidem velit cupiditate doloremque architecto tempora obcaecati officia recusandae in dignissimos laborum dolor magnam asperiores ipsum! Mollitia necessitatibus, ad corporis consequatur cumque dolorum neque! Repudiandae reprehenderit cum beatae nobis! Dicta officia libero unde voluptatum qui, autem quod, nisi repellat tempore quasi, reiciendis ipsam! Perspiciatis vitae inventore, aspernatur consectetur sequi fugiat nobis ab et suscipit?",
       images: expenses,
-      url: "",
-      github_repo: "",
+      url: "https://sodiq-expenses.netlify.app/",
+      github_repo: {
+        frontend: "https://github.com/sodmod/FirstReactProject",
+        backend: "",
+      },
       technologies: [{ language: "Javascript", framework: "React" }],
     },
   ];
