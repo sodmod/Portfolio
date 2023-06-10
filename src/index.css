@@ -10,6 +10,11 @@
   src: url("./fonts/arial-downloaded-font-collection/rosmatika-73779/RosmatikaRegular-BWA45.ttf");
 }
 
+@font-face {
+  font-family: aquire;
+  src: url("./fonts/arial-downloaded-font-collection/aquire-43735/Aquire-BW0ox.otf");
+}
+
 body {
   padding: 0;
   margin: 0;

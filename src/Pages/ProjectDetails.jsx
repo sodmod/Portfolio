@@ -20,15 +20,15 @@ function ProjectDetails() {
                 src={details.images}
                 alt=""
               />
-              <p className="text-[20px] sm:px-4 leading-10 pt-6">
+              <p className="text-[20px] sm:px-4 leading-10 pt-6 text-black">
                 {details.message}
               </p>
-              <div className="py-3">
+              <div className="py-3 text-black">
                 <h1 className="text-center text-[2rem] leading-[23px] font-bold">
                   Technical Skills
                 </h1>
                 {details.technologies && (
-                  <div className="grid grid-cols-2 w-full text-xl sm:w-3/5 gap-5 px-4 m-auto py-6">
+                  <div className="grid grid-cols-2 w-full text-2xl sm:min-w-3/5 gap-5 sm:px-4 m-auto py-6">
                     {details.technologies.map((prop) => (
                       <>
                         <li>{prop.language && prop.language}</li>

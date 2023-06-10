@@ -34,7 +34,7 @@ function PortfolioPage() {
               </Link>
             </div>
           ))}
-          <div className="text-center py-3">
+          <div className="text-center py-3 text-xl text-black">
             <h3>Let's Talk</h3>
             <p>
               Do you want to get in touch or talk about a project? Feel free to
