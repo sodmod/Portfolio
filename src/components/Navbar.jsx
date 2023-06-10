@@ -4,6 +4,7 @@ import styles from "./navbar.module.css";
 
 function Navbar() {
   const [first, setFirst] = useState(true);
+
   const onClick = () => {
     setFirst(!first);
   };
@@ -29,13 +30,13 @@ function Navbar() {
             </div>
 
             <div className={first ? `${styles.menu2}` : `${styles.menu1}`}>
-              <NavLink className="" to="services">
+              <NavLink className="" to="services" onClick={onClick}>
                 Services
               </NavLink>
-              <NavLink className="" to="portfolios">
+              <NavLink className="" to="portfolios" onClick={onClick}>
                 Portfolio
               </NavLink>
-              <NavLink className="" to="aboutme">
+              <NavLink className="" to="aboutme" onClick={onClick}>
                 About me
               </NavLink>
               <NavLink className="bg-[#216D8F] rounded-[5px] p-2" to="contact">
