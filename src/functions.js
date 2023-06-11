@@ -9,8 +9,7 @@ export const getProjects = () => {
     {
       id: "1",
       title: "Grammercetamol",
-      preview:
-        "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Itaque temporibus nulla expedita earum aspernatur porro assumenda, explicabo consectetur blanditiis quibusdam eius voluptatem harum? Aliquam aliquid, repudiandae velit suscipit omnis eveniet.",
+      preview: "Grammercetamol is an E-Learning web application ",
       message:
         "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Explicabo odio recusandae eaque? Sunt delectus voluptatibus dolores aut, assumenda provident molestias quidem nemo doloremque molestiae quos sequi harum accusamus veritatis deserunt  Blanditiis, dolore? Aliquid minus assumenda animi dignissimos id in ea dicta voluptate amet? Corporis nisi assumenda dicta explicabo ipsam obcaecati distinctio dignissimos sed nam? Totam iure quisquam beatae modi veritatis!  Accusantium, nulla. Voluptas natus quo facilis aspernatur odio sunt soluta saepe dolorum provident. Consequuntur, quisquam cum? Consequatur, iste obcaecati? Nam, eligendi autem provident non dolorem maxime est vero minus ea.Quam nihil sint hic ipsa, facilis eveniet quasi dolorem ducimus aspernatur, aut laborum quo saepe. Dolores unde fugiat vero blanditiis? Obcaecati odio maiores iusto dolorum inventore! Commodi earum aliquam nesciunt.Vero, totam odio pariatur voluptatibus fugiat quidem velit cupiditate doloremque architecto tempora obcaecati officia recusandae in dignissimos laborum dolor magnam asperiores ipsum! Mollitia necessitatibus, ad corporis consequatur cumque dolorum neque! Repudiandae reprehenderit cum beatae nobis! Dicta officia libero unde voluptatum qui, autem quod, nisi repellat tempore quasi, reiciendis ipsam! Perspiciatis vitae inventore, aspernatur consectetur sequi fugiat nobis ab et suscipit?",
       images: grammercetamol,

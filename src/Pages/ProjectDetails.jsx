@@ -20,7 +20,7 @@ function ProjectDetails() {
                 src={details.images}
                 alt=""
               />
-              <p className="text-[20px] sm:px-4 leading-10 pt-6 text-black">
+              <p className="text-[20px] sm:px-4 leading-10 pt-6 text-white">
                 {details.message}
               </p>
               <div className="py-3 text-black">
