@@ -4,7 +4,6 @@ import HomePage from "./Pages/HomePage";
 import ServicePage from "./Pages/ServicePage";
 import AboutMePage from "./Pages/AboutMePage";
 import PortfolioPage from "./Pages/PortfolioPage";
-import pics1 from "./assests/Rectangle3.png";
 import { getProjects, getProjectsDetails } from "./functions";
 import ContactPage from "./Pages/ContactPage";
 import ProjectDetails from "./Pages/ProjectDetails";
@@ -28,7 +27,7 @@ const router = createBrowserRouter([
             children: [
               {
                 index: true,
-                element: <PortfolioPage images={pics1} />,
+                element: <PortfolioPage />,
               },
               {
                 path: ":projectname",

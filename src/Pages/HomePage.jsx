@@ -2,10 +2,11 @@ import React from "react";
 import Typed from "react-typed";
 import pics from "../assests/pics.png";
 import styles from "./homepage.module.css";
+import PageTransition from "./PageTransition";
 
 function HomePage() {
   return (
-    <section
+    <PageTransition
       className={`${styles.home} "w-[100%] h-[100vh] py-1 flex flex-col-reverse sm:flex-row items-center sm:py-7"`}
     >
       <div className="w-full sm:w-[70%] text-center sm:text-start font-[Arial] not-italic">
@@ -53,7 +54,7 @@ function HomePage() {
       <div className="w-full sm:w-[30%] md:block">
         <img className="w-[100%]" src={pics} alt="" />
       </div>
-    </section>
+    </PageTransition>
   );
 }
 

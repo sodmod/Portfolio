@@ -1,12 +1,15 @@
 import React from "react";
 import Navbar from "../components/Navbar";
 import { Outlet } from "react-router-dom";
+import { AnimatePresence } from "framer-motion";
 
 function RootLayout() {
   return (
     <>
       <Navbar />
-      <Outlet />
+      <AnimatePresence initial={true} mode="popLayout">
+        <Outlet />
+      </AnimatePresence>
     </>
   );
 }

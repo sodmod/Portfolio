@@ -1,8 +1,9 @@
 import React from "react";
+import PageTransition from "./PageTransition";
 
 function ServicePage() {
   return (
-    <section className="min-h-[100%] h-[100%] w-[100vw]">
+    <PageTransition className="min-h-[100%] h-[100%] w-[100vw]">
       <div className="h-[50vh] w-full">
         <div className="h-[100%] w-[inherit]">
           <div
@@ -57,7 +58,7 @@ function ServicePage() {
           </div>
         </div>
       </div>
-    </section>
+    </PageTransition>
   );
 }
 

@@ -1,13 +1,14 @@
 import React from "react";
 import styles from "./projectdetails.module.css";
 import { Link, useRouteLoaderData } from "react-router-dom";
+import PageTransition from "./PageTransition";
 
 function ProjectDetails() {
   const details = useRouteLoaderData("details");
   console.log(details);
 
   return (
-    <section className={`${styles.projects}`}>
+    <PageTransition className={`${styles.projects}`}>
       <div className="min-h-[100vh] pt-32">
         {details && (
           <div className="w-full sm:w-10/12 m-auto">
@@ -64,7 +65,7 @@ function ProjectDetails() {
           </div>
         )}
       </div>
-    </section>
+    </PageTransition>
   );
 }
 

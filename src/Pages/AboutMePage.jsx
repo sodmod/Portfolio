@@ -1,9 +1,10 @@
 import React from "react";
 import pics from "../assests/pics.png";
+import PageTransition from "./PageTransition";
 
 function AboutMePage() {
   return (
-    <section className="relative w-full min-h-[100vh] max-w-full">
+    <PageTransition className="relative w-full min-h-[100vh] max-w-full">
       <div className="flex flex-row  min-h-[100%] wax-w-full">
         <div className="bg-[#788ba0c4] w-full font-[Arial] not-italic sm:w-3/6 min-h-[inherit] md:text-xl">
           <div className="w-full min-h-[inherit] overflow-hidden pt-32">
@@ -45,7 +46,7 @@ function AboutMePage() {
           </div>
         </div>
       </div>
-    </section>
+    </PageTransition>
   );
 }
 

@@ -1,11 +1,12 @@
 import React from "react";
 import { Link, useRouteLoaderData } from "react-router-dom";
+import PageTransition from "./PageTransition";
 
 function PortfolioPage() {
   const { details } = useRouteLoaderData("portfolio");
   console.log(details);
   return (
-    <section className="max-w-[100vw] h-full min-h-full py-4">
+    <PageTransition className="max-w-[100vw] h-full min-h-full py-4">
       {details && (
         <div className="mt-36 w-full h-auto">
           <h1 className="text-center text-3xl font-bold">
@@ -46,7 +47,7 @@ function PortfolioPage() {
           </div>
         </div>
       )}
-    </section>
+    </PageTransition>
   );
 }
 
