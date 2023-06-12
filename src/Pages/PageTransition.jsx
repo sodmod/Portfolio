@@ -28,18 +28,45 @@ const rotateAnimation = {
   },
 };
 
+const zoomAnimation = {
+  initial: {
+    scale: 0.7,
+    opacity: 1,
+  },
+  animate: {
+    scale: 1,
+    opacity: 1,
+  },
+  exit: {
+    scale: 0.7,
+    opacity: 0,
+  },
+};
+
+const widthAnimation = {
+  initial: {
+    width: "30%",
+  },
+  animate: {
+    width: "100%",
+  },
+  exit: {
+    width: "100%",
+    x: window.innerWidth,
+  },
+};
 function PageTransition({ children, className }) {
   return (
     <motion.section
       className={className}
       transition={{
         ease: "easeInOut",
-        duration: 0.4,
+        duration: 1,
       }}
       initial="initial"
       animate="animate"
       exit="exit"
-      variants={rotateAnimation}
+      variants={widthAnimation}
     >
       {children}
     </motion.section>

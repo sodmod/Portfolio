@@ -7,7 +7,7 @@ function RootLayout() {
   return (
     <>
       <Navbar />
-      <AnimatePresence initial={true} mode="popLayout">
+      <AnimatePresence initial={true} mode="wait">
         <Outlet />
       </AnimatePresence>
     </>
