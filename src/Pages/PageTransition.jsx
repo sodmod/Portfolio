@@ -66,7 +66,7 @@ function PageTransition({ children, className }) {
       initial="initial"
       animate="animate"
       exit="exit"
-      variants={widthAnimation}
+      variants={zoomAnimation}
     >
       {children}
     </motion.section>
