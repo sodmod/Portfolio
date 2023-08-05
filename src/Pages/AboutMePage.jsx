@@ -12,25 +12,18 @@ function AboutMePage() {
               <h3 className="text-lg font-normal">Full-Stack Developer</h3>
               <h1 className="uppercase font-bold text-4xl">Sodiq Badmus</h1>
               <p>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                Exercitationem, voluptates quam, beatae unde rem magnam nisi
-                numquam velit itaque, sapiente quo tenetur. Rem tenetur
-                blanditiis officiis inventore culpa facilis distinctio! Aut
-                molestiae voluptate aperiam natus dolorum, debitis et. Deleniti
-                quidem, facere neque tempora, sapiente deserunt beatae
-                laudantium officia cupiditate ipsa quae numquam aliquam illo
-                provident in veniam dolores. Ex, adipisci. Reiciendis assumenda,
-                aliquid nemo molestiae est quaerat velit veritatis incidunt
-                alias magnam nobis voluptatibus voluptas. Quisquam dicta,
-                ducimus quam neque reprehenderit ea facilis mollitia vel
-                deserunt illo ex vitae sunt? Animi in non, consequuntur
-                excepturi voluptates praesentium veniam inventore facilis ad
-                libero autem, perferendis reprehenderit, explicabo quas nemo
-                vero illum maiores ducimus laudantium laborum! Tenetur iste
-                delectus illo qui aperiam. Dicta, delectus exercitationem. Hic
-                amet, mollitia et atque earum labore quia corporis veniam, nisi
-                incidunt facere cumque nostrum officia perferendis totam
-                perspiciatis? Sed culpa ratione expedita quae aliquam
+                Current student looking to join the workforce to gain real-world
+                experience. Ability to complete tasks on time in both individual
+                and team settings. Dependable and reliable, ready to learn and
+                grow with your company and I am an adaptable student with
+                knowledge of application development, configuration management,
+                and database design. Aiming to leverage my abilities to
+                successfully fill the vacancy on your team. Frequently praised
+                for communication by my peers, I can be relied upon to help your
+                team achieve its goals. Seeking to utilize excellent
+                communication, interpersonal, and organizational skills to
+                complete tasks. Reliable with a good work ethic and the ability
+                to quickly adapt to new tasks and environments.
               </p>
             </div>
           </div>

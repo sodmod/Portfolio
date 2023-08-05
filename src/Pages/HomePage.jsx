@@ -1,6 +1,6 @@
 import React from "react";
 import Typed from "react-typed";
-import pics from "../assests/pics.png";
+import pics from "../assests/me2.jpg";
 import styles from "./homepage.module.css";
 import PageTransition from "./PageTransition";
 
@@ -52,7 +52,7 @@ function HomePage() {
         </div>
       </div>
       <div className="w-full sm:w-[30%] md:block">
-        <img className="w-[100%]" src={pics} alt="" />
+        <img className="w-[100%] p-4" src={pics} alt="" />
       </div>
     </PageTransition>
   );
