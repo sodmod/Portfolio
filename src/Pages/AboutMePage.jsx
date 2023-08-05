@@ -1,5 +1,5 @@
 import React from "react";
-import pics from "../assests/pics.png";
+import pics from "../assests/me2.jpg";
 import PageTransition from "./PageTransition";
 
 function AboutMePage() {
