@@ -5,7 +5,6 @@ import PageTransition from "./PageTransition";
 
 function ProjectDetails() {
   const details = useRouteLoaderData("details");
-  console.log(details);
 
   return (
     <PageTransition className={`${styles.projects}`}>

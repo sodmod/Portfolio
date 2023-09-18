@@ -3,6 +3,7 @@ import expenses from "./assests/expenses.jpg";
 import toDo from "./assests/todoList.jpg";
 import grammercetamol from "./assests/grammercetamol.jpg";
 import paystack_testing from "./assests/paystack_testing.jpg";
+import chat_ap from "./assests/chat_app.JPG";
 
 export const getProjects = () => {
   const details = [
@@ -27,7 +28,6 @@ export const getProjects = () => {
       id: "2",
       title: "Food Application",
       preview: "",
-
       message: "",
       images: foodApp,
       url: "https://badmus-food-order-app.netlify.app/",
@@ -82,13 +82,15 @@ export const getProjects = () => {
     {
       id: "6",
       title: "Web Chat Application",
-      preview: "",
-      message: "",
-      images: expenses,
-      url: "https://sodiq-expenses.netlify.app/",
+      preview:
+        "An application to show the implementation of Web Socket communication",
+      message:
+        "Olutan is a web-based chatting application that focuses on the implementation of Web Socket.",
+      images: chat_ap,
+      url: "https://olutan.netlify.app",
       github_repo: {
-        frontend: "https://github.com/sodmod/FirstReactProject",
-        backend: "https://github.com/sodmod/grammercetamol",
+        frontend: "https://github.com/sodmod/chatting-application-interface",
+        backend: "https://github.com/sodmod/chatting-application",
       },
       technologies: [
         { language: "Javascript", framework: "React" },
@@ -103,10 +105,8 @@ export const getProjectsDetails = ({ params }) => {
   const id = params.projectname;
   const { details } = getProjects();
   for (let i = 0, l = details.length; i < l; i++) {
-    console.log(details[i]);
     if (details[i].id === id) {
       const x = details[i];
-      console.log(x);
       return x;
     }
   }
