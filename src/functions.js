@@ -79,6 +79,22 @@ export const getProjects = () => {
       },
       technologies: [{ language: "Javascript", framework: "React" }],
     },
+    {
+      id: "6",
+      title: "Web Chat Application",
+      preview: "",
+      message: "",
+      images: expenses,
+      url: "https://sodiq-expenses.netlify.app/",
+      github_repo: {
+        frontend: "https://github.com/sodmod/FirstReactProject",
+        backend: "https://github.com/sodmod/grammercetamol",
+      },
+      technologies: [
+        { language: "Javascript", framework: "React" },
+        { language: "Java", framework: "SpringBoot" },
+      ],
+    },
   ];
   return { details };
 };
