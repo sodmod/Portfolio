@@ -4,7 +4,6 @@ import PageTransition from "./PageTransition";
 
 function PortfolioPage() {
   const { details } = useRouteLoaderData("portfolio");
-  console.log(details);
   return (
     <PageTransition className="max-w-[100vw] h-full min-h-full py-4">
       {details && (
