@@ -10,7 +10,8 @@ export const getProjects = () => {
     {
       id: "1",
       title: "Grammercetamol",
-      preview: "Grammercetamol is an E-Learning linguistic web application",
+      preview:
+        "Grammercetamol is an E-Learning linguistic web application that focus on teaching people how to be proficient in English Language",
       message: "",
       images: grammercetamol,
       url: "https://grammercetamol.netlify.app/",
