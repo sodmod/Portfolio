@@ -41,7 +41,7 @@ function ProjectDetails() {
               <div className="w-full pt-3 flex pb-4">
                 <Link
                   className="bg-[#7699a9] w-[80%] px-2 py-1 sm:w-[20%] sm:px-4 sm:py-2 text-center block m-auto rounded-md text-white text-[20px] leading-[23px]"
-                  to={details.git}
+                  to={details.url}
                 >
                   Visit Site
                 </Link>

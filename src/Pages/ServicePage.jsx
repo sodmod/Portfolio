@@ -39,7 +39,7 @@ function ServicePage() {
             </p>
           </div>
           <div className="bg-[#D9D9D9] w-full h-max my-4 md:p-0 xl:p-11 shadow-xl rounded-lg hover:scale-95 duration-300 text-center">
-            <h1>Front-end Development</h1>
+            <h1>Back-End Development</h1>
             <p>
               Lorem ipsum, dolor sit amet consectetur adipisicing elit. Natus
               corrupti, sapiente, dolorem optio praesentium expedita explicabo
@@ -48,7 +48,7 @@ function ServicePage() {
             </p>
           </div>
           <div className="bg-[#D9D9D9] w-full h-max my-4 md:p-0 xl:p-11 shadow-xl rounded-lg hover:scale-95 duration-300 text-center">
-            <h1>Front-end Development</h1>
+            <h1>Database Administration</h1>
             <p>
               Lorem ipsum, dolor sit amet consectetur adipisicing elit. Natus
               corrupti, sapiente, dolorem optio praesentium expedita explicabo
