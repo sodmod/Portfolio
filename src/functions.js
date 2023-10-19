@@ -107,8 +107,8 @@ export const getProjects = () => {
       images: chat_ap,
       url: "https://blog-app-gilt-alpha.vercel.app/",
       github_repo: {
-        frontend: "https://github.com/sodmod/chatting-application-interface",
-        backend: "https://github.com/sodmod/chatting-application",
+        frontend: "https://github.com/sodmod/blog-app",
+        backend: "https://github.com/sodmod/spring-blog-app",
       },
       technologies: [
         { language: "Javascript", framework: "Next Js" },
