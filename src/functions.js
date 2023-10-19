@@ -20,7 +20,7 @@ export const getProjects = () => {
         backend: "https://github.com/sodmod/grammercetamol",
       },
       technologies: [
-        { language: "Javascript", framework: "React" },
+        { language: "Javascript", framework: "React Library" },
         { language: "Java", framework: "SpringBoot" },
         { language: "Databasee", framework: "Postgres" },
       ],
@@ -36,7 +36,7 @@ export const getProjects = () => {
         frontend: "https://github.com/sodmod/food-app",
         backend: "",
       },
-      technologies: [{ language: "Javascript", framework: "React" }],
+      technologies: [{ language: "Javascript", framework: "React Library" }],
     },
     {
       id: "3",
@@ -49,7 +49,7 @@ export const getProjects = () => {
         frontend: "https://github.com/sodmod/My-_React_ToDo_List",
         backend: "",
       },
-      technologies: [{ language: "Javascript", framework: "React" }],
+      technologies: [{ language: "Javascript", framework: "React Library" }],
     },
     {
       id: "4",
@@ -63,7 +63,7 @@ export const getProjects = () => {
         backend: "https://github.com/sodmod/spring-paystack",
       },
       technologies: [
-        { language: "Javascript", framework: "React" },
+        { language: "Javascript", framework: "React Library" },
         { language: "Java", framework: "SpringBoot" },
       ],
     },
@@ -78,7 +78,7 @@ export const getProjects = () => {
         frontend: "https://github.com/sodmod/FirstReactProject",
         backend: "",
       },
-      technologies: [{ language: "Javascript", framework: "React" }],
+      technologies: [{ language: "Javascript", framework: "React Library" }],
     },
     {
       id: "6",
@@ -94,7 +94,24 @@ export const getProjects = () => {
         backend: "https://github.com/sodmod/chatting-application",
       },
       technologies: [
-        { language: "Javascript", framework: "React" },
+        { language: "Javascript", framework: "React Library" },
+        { language: "Java", framework: "SpringBoot" },
+      ],
+    },
+    {
+      id: "7",
+      title: "Blog App",
+      preview: "Post your favourite moments here",
+      message:
+        "The application is build with NextJs Framework, It is my first Next Js application",
+      images: chat_ap,
+      url: "https://blog-app-gilt-alpha.vercel.app/",
+      github_repo: {
+        frontend: "https://github.com/sodmod/chatting-application-interface",
+        backend: "https://github.com/sodmod/chatting-application",
+      },
+      technologies: [
+        { language: "Javascript", framework: "Next Js" },
         { language: "Java", framework: "SpringBoot" },
       ],
     },
