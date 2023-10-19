@@ -3,7 +3,8 @@ import expenses from "./assests/expenses.jpg";
 import toDo from "./assests/todoList.jpg";
 import grammercetamol from "./assests/grammercetamol.jpg";
 import paystack_testing from "./assests/paystack_testing.jpg";
-import chat_ap from "./assests/chat_app.JPG";
+import chat_app from "./assests/chat_app.JPG";
+import blog_app from "./assests/blog.JPG";
 
 export const getProjects = () => {
   const details = [
@@ -87,7 +88,7 @@ export const getProjects = () => {
         "An application to show the implementation of Web Socket communication",
       message:
         "Olutan is a web-based chatting application that focuses on the implementation of Web Socket.",
-      images: chat_ap,
+      images: chat_app,
       url: "https://olutan.netlify.app",
       github_repo: {
         frontend: "https://github.com/sodmod/chatting-application-interface",
@@ -104,7 +105,7 @@ export const getProjects = () => {
       preview: "Post your favourite moments here",
       message:
         "The application is build with NextJs Framework, It is my first Next Js application",
-      images: chat_ap,
+      images: blog_app,
       url: "https://blog-app-gilt-alpha.vercel.app/",
       github_repo: {
         frontend: "https://github.com/sodmod/blog-app",
