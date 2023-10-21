@@ -32,25 +32,7 @@ body {
   word-wrap: break-word;
   font-family: rose;
   color: black;
-  /* background-color: red; */
   background-color: rgb(178, 171, 155);
-  /* background-image: linear-gradient(
-    to right bottom,
-    #020202,
-    #1f1f21,
-    #36373a,
-    #262728,
-    #272728,
-    #656971,
-    #81868f,
-    #323334,
-    #8d939d,
-    #353536,
-    #202122,
-    #131314
-  ); */
-  /* background-repeat: no-repeat;
-  background-size: cover; */
   position: relative;
 }
 
@@ -58,21 +40,6 @@ body {
   min-height: 100vh;
   max-width: 100%;
   width: 100%;
-  /* background-image: linear-gradient(
-    to right bottom,
-    #020202,
-    #1f1f21,
-    #36373a,
-    #4f5156,
-    #868a96,
-    #323436d8,
-    #81868f,
-    #47494d,
-    #8d939d,
-    #303236b9,
-    #303236c8,
-    #151516
-  ); */
   background-repeat: no-repeat;
   background-size: cover;
   overflow: hidden;
