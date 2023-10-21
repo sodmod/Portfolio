@@ -112,7 +112,7 @@ export const getProjects = () => {
         backend: "https://github.com/sodmod/spring-blog-app",
       },
       technologies: [
-        { language: "Javascript", framework: "Next Js" },
+        { language: "Typescript", framework: "Next Js" },
         { language: "Java", framework: "SpringBoot" },
       ],
     },

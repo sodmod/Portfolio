@@ -1,5 +1,5 @@
 import React from "react";
-import pics from "../assests/me.jpg";
+import pics from "../assests/badmus.png";
 import PageTransition from "./PageTransition";
 
 function AboutMePage() {
@@ -31,7 +31,7 @@ function AboutMePage() {
         <div className="hidden sm:pt-32 sm:block w-3/6 relative mx-auto">
           <div className="relative sm:w-[100%] h-[100%] pt-5 pl-5 mx-auto">
             <img
-              className={`${"sm:w-[100%] h-[70%] pb-6"}`}
+              className={`${"sm:w-[100%] h-[70%]"}`}
               style={{ objectFit: "contain" }}
               src={pics}
               alt=""
