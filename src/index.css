@@ -22,25 +22,17 @@
 }
 
 body {
-  padding: 0;
-  margin: 0;
   width: 100vw;
   max-width: 100vw;
   min-height: 100vh;
   height: 100vh;
   overflow-x: hidden;
   word-wrap: break-word;
-  font-family: rose;
-  color: black;
-  background-color: rgb(178, 171, 155);
-  position: relative;
+  font-family: aquire;
+  color: whitesmoke;
+  background-color: rgba(13, 13, 13, 0.876);
 }
 
 #root {
-  min-height: 100vh;
-  max-width: 100%;
-  width: 100%;
-  background-repeat: no-repeat;
-  background-size: cover;
   overflow: hidden;
 }
