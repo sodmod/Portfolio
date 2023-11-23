@@ -3,33 +3,24 @@ import PageTransition from "./PageTransition";
 
 function ServicePage() {
   return (
-    <PageTransition className="min-h-[100%] h-[100%] w-[100vw]">
-      <div className="h-[50vh] w-full">
-        <div className="h-[100%] w-[inherit]">
-          <div
-            className="h-[inherit] w-full max-w-full flex mx-auto justify-center items-center text-7xl"
-            // style={{
-            //   backgroundImage: `url(${pics})`,
-            //   backgroundRepeat: "no-repeat",
-            //   backgroundSize: "cover",
-            // }}
+    <div>
+      <div className="w-[inherit] mt-10">
+        <div className="w-full max-w-full text-center text-5xl">
+          <h1
+            className="font-bold"
+            style={{
+              color: "rgba(255, 255, 255, 0.792)",
+              textUnderlinePosition: "under",
+              textDecoration: "underline",
+            }}
           >
-            <h1
-              className="font-bold"
-              style={{
-                color: "rgba(255, 255, 255, 0.792)",
-                textUnderlinePosition: "under",
-                textDecoration: "underline",
-              }}
-            >
-              Services
-            </h1>
-          </div>
+            Services
+          </h1>
         </div>
       </div>
-      <div className=" w-full min-h-full max-w-full px-4 py-6 text-black">
-        <div className="grid md:grid-cols-3 mx-auto gap-14 h-full w-10/12 py-10 text-xl">
-          <div className="bg-[#D9D9D9] w-full h-max my-4 md:p-0 xl:p-11 shadow-2xl rounded-lg hover:scale-95 duration-300 text-center">
+      <div className="w-full max-w-full text-black mt-7">
+        <div className="grid md:grid-cols-3 mx-auto gap-14 w-10/12 py-10 text-xl">
+          <div className="bg-[#D9D9D9] w-full my-4 md:p-0 xl:p-11 shadow-2xl rounded-lg hover:scale-95 duration-300 text-center">
             <h1>Front-end Development</h1>
             <p>
               Lorem ipsum, dolor sit amet consectetur adipisicing elit. Natus
@@ -38,7 +29,7 @@ function ServicePage() {
               fuga nostrum excepturi quaerat corporis?
             </p>
           </div>
-          <div className="bg-[#D9D9D9] w-full h-max my-4 md:p-0 xl:p-11 shadow-xl rounded-lg hover:scale-95 duration-300 text-center">
+          <div className="bg-[#D9D9D9] w-full my-4 md:p-0 xl:p-11 shadow-xl rounded-lg hover:scale-95 duration-300 text-center">
             <h1>Back-End Development</h1>
             <p>
               Lorem ipsum, dolor sit amet consectetur adipisicing elit. Natus
@@ -47,7 +38,7 @@ function ServicePage() {
               fuga nostrum excepturi quaerat corporis?
             </p>
           </div>
-          <div className="bg-[#D9D9D9] w-full h-max my-4 md:p-0 xl:p-11 shadow-xl rounded-lg hover:scale-95 duration-300 text-center">
+          <div className="bg-[#D9D9D9] w-full my-4 md:p-0 xl:p-11 shadow-xl rounded-lg hover:scale-95 duration-300 text-center">
             <h1>Database Administration</h1>
             <p>
               Lorem ipsum, dolor sit amet consectetur adipisicing elit. Natus
@@ -58,7 +49,7 @@ function ServicePage() {
           </div>
         </div>
       </div>
-    </PageTransition>
+    </div>
   );
 }
 

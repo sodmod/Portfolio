@@ -40,13 +40,6 @@ function Navbar() {
                 Portfolio
               </NavLink>
               <NavLink
-                className="sm:hover:scale-110 sm:hover:bg-slate-950 sm:duration-300"
-                to="aboutme"
-                onClick={onClick1}
-              >
-                About me
-              </NavLink>
-              <NavLink
                 className="bg-[#216D8F] rounded-[5px] p-2 sm:hover:scale-110 sm:hover:bg-slate-950 sm:p-3 sm:duration-300"
                 onClick={onClick1}
                 to="contact"
