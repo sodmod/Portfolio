@@ -1,8 +1,6 @@
 import { RouterProvider, createBrowserRouter } from "react-router-dom";
 import RootLayout from "./Pages/RootLayout";
 import HomePage from "./Pages/HomePage";
-import ServicePage from "./Pages/ServicePage";
-import AboutMePage from "./Pages/AboutMePage";
 import PortfolioPage from "./Pages/PortfolioPage";
 import { getProjects, getProjectsDetails } from "./functions";
 import ContactPage from "./Pages/ContactPage";
