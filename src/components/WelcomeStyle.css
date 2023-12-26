@@ -1,0 +1,79 @@
+.welcome-container {
+  height: 100%;
+  width: inherit;
+}
+.welcome1 {
+  width: 70%;
+  display: flex;
+  margin: auto;
+  justify-content: space-between;
+  align-items: center;
+  height: 100%;
+  padding-bottom: 2rem;
+}
+
+.welcome1 h1 {
+  font-size: 5rem;
+  font-weight: 400;
+}
+
+.welcome2 {
+  width: 70%;
+  display: flex;
+  margin: auto;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.welcome2 h1 {
+  font-size: 5rem;
+  font-weight: 400;
+}
+
+.welcome1 .welcome1-image {
+  width: 100%;
+  height: 100%;
+}
+
+.welcome1-image img {
+  object-fit: cover;
+  height: 100%;
+}
+
+@media screen and (max-width: 850px) {
+  .welcome1 {
+    width: 90%;
+    margin: 0 auto;
+    flex-direction: column;
+  }
+
+  .welcome1-image {
+    background-color: yellow;
+  }
+
+  .welcome2 {
+    width: 90%;
+    margin: 0 auto;
+    flex-direction: column-reverse;
+  }
+}
+
+@media screen and (max-width: 450px) {
+  .welcome1 {
+    width: 100%;
+    padding: 0 0.7rem;
+  }
+  .welcome1 h1 {
+    background-color: blue;
+    font-size: 20vw;
+  }
+
+  .welcome2 {
+    width: 100%;
+    padding: 0 0.7rem;
+  }
+  .welcome2 h1 {
+    background-color: blue;
+    font-size: 25vw;
+  }
+}

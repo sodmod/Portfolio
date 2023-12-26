@@ -1,38 +1,36 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
-@font-face {
-  font-family: book;
-  src: url("./fonts/BrouklynSignature-DemoUse.otf");
-}
-@font-face {
-  font-family: rose;
-  src: url("./fonts/arial-downloaded-font-collection/rosmatika-73779/RosmatikaRegular-BWA45.ttf");
-}
-
-@font-face {
-  font-family: aquire;
-  src: url("./fonts/arial-downloaded-font-collection/aquire-43735/Aquire-BW0ox.otf");
-}
+@import url("https://fonts.googleapis.com/css2?family=Cabin:wght@400;500;700&family=Poppins:wght@100;200;300;400;500;600;700;800;900&family=Ubuntu:ital,wght@1,500&display=swap");
 
 * {
   padding: 0;
   margin: 0;
   box-sizing: border-box;
+  font-family: "Cabin";
+  color: white;
 }
 
-body {
-  width: 100vw;
-  max-width: 100vw;
-  min-height: 100vh;
-  height: 100vh;
-  overflow-x: hidden;
-  word-wrap: break-word;
-  font-family: aquire;
-  color: whitesmoke;
-  background-color: rgba(13, 13, 13, 0.876);
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+div,
+a,
+ul,
+main,
+section,
+img,
+header,
+footer {
+  padding: 0;
+  margin: 0;
 }
 
 #root {
-  overflow: hidden;
+  max-width: 100%;
+  width: 100%;
 }
