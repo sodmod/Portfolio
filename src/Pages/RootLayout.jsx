@@ -5,12 +5,13 @@ import { AnimatePresence } from "framer-motion";
 
 function RootLayout() {
   return (
-    <div className="mt-7 mx-24">
-      <Navbar />
+    <>
       <AnimatePresence initial={true} mode="wait">
-        <Outlet />
+        <div className="w-full min-h-full bg-black">
+          <Outlet />
+        </div>
       </AnimatePresence>
-    </div>
+    </>
   );
 }
 
