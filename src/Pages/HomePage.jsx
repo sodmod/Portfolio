@@ -1,10 +1,4 @@
 import React from "react";
-import Typed from "react-typed";
-import pics from "../assests/badmus.png";
-import styles from "./homepage.module.css";
-import PageTransition from "./PageTransition";
-import AboutMePage from "./AboutMePage";
-import ServicePage from "./ServicePage";
 import Navbar from "../components/Navbar";
 import WelcomePage from "../components/Welcome";
 

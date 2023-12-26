@@ -1,5 +1,6 @@
 import { Component } from "react";
 import "./WelcomeStyle.css";
+import { Link } from "react-router-dom";
 
 class WelcomePage extends Component {
   render() {
@@ -25,34 +26,32 @@ class WelcomePage extends Component {
 
             <h1>Portfolio</h1>
           </div>
-          <div></div>
-        </div>
-        {/* <div className={`w-full h-full max-w-full`}>
-          <div
-            className={`${""} w-4/5 h-4/6 rounded-xl p-1 flex justify-center items-center flex-col mx-auto`}
-          >
-            <div className={`${"wel"} w-full flex items-center gap-x-5`}>
-              <h1 className="w-1/2 text-9xl text-center">Developer</h1>
-              <div className="w-1/2 relative">
-                <img
-                  className="w-full h-28 rounded-xl object-cover"
-                  src="https://images.unsplash.com/photo-1423784346385-c1d4dac9893a?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
-                  alt=""
-                />
-              </div>
+          <div className="socials-contianer">
+            <div className="socials">
+              <ul className="social-list">
+                <Link>
+                  <i className="fa-solid fa-code-compare" />
+                </Link>
+                <Link>
+                  <i className="fa-brands fa-linkedin-in" />
+                </Link>
+                <Link>
+                  <i className="fa-brands fa-whatsapp" />
+                </Link>
+                <Link>
+                  <i className="fa-regular fa-envelope" />
+                </Link>
+              </ul>
             </div>
-            <div className="w-full flex items-center gap-x-5">
-              <div className="w-1/2 relative">
-                <img
-                  className="w-full h-28 rounded-xl object-cover"
-                  src="https://images.unsplash.com/photo-1423784346385-c1d4dac9893a?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
-                  alt=""
-                />
-              </div>
-              <h1 className="w-1/2 text-9xl text-center">Portfolio</h1>
+            <div className="details">
+              <p>
+                I'm a passionate graphic designer with a knack for turning ideas
+                into stunning visuals. With a keen eye for detail and a love for
+                creativity, I strive to make every project unique and impactful.
+              </p>
             </div>
           </div>
-        </div> */}
+        </div>
       </>
     );
   }
