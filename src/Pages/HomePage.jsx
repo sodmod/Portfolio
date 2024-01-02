@@ -1,6 +1,9 @@
 import React from "react";
 import Navbar from "../components/Navbar";
 import WelcomePage from "../components/Welcome";
+import AboutMe from "../components/AboutMe";
+import "./HomePageStyles.css";
+import Services from "../components/Services";
 
 function HomePage() {
   return (
@@ -8,6 +11,8 @@ function HomePage() {
       <div className="w-full max-w-full min-h-full h-full">
         <Navbar />
         <WelcomePage />
+        <AboutMe />
+        <Services />
       </div>
       {/* <PageTransition
         className={`${styles.home} "w-[100%] min-h-[100vh] py-1 sm:flex-row items-center sm:py-7"`}
